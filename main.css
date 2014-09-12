@@ -1,0 +1,120 @@
+/* ADD YOUR STYLES HERE */
+
+/* Signup form */
+
+
+form {
+	width: 100%;
+}
+
+form > div {
+	margin-top: 20px;
+}
+
+label {
+	float: left;
+	text-align: right;
+	width: 100px;
+	margin: 0px 20px 0px 0px;
+}
+
+label.state {
+	display: inline-block;
+	width:50px;
+
+}
+
+input.full {
+	width: 300px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+input.city {
+	width: 175px;
+	float:left;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+input.state {
+	height: 30px;
+	width: 50px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+/* Checkbox */
+
+.check {
+	display: block;
+	margin-left: 120px;
+}
+
+input.checkbox {
+	display:inline;
+	float: left;
+}
+
+label.checkbox {
+	display:inline;
+	float: none;
+}
+
+.button-block {
+	display: block;
+	width: 300px;
+	margin-left: 120px;
+}
+
+input[type="submit"].button-gray {
+	background-color: #CCCCCC;
+	font-style: Helvetica;
+	font-size: .9em;
+	padding: 15px;
+	width: 300px;
+	margin: 10px auto;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+}
+
+/* Form Validation */
+
+.is-valid {
+	color: green;
+}
+
+.is-invalid {
+	color: red;
+}
+
+input.is-valid {
+	border: 3px solid green;
+}
+
+input.is-invalid {
+	border: 3px solid red;
+}
+
+/* Search Bar */
+
+.searchbar {
+	width: 760px;
+	margin: auto;
+	display: block;
+}
+
+.searchbar label {
+	width: 25%;
+}
+
+input[type="text"].searchbox {
+	width: 50%;
+}
+
+input[type="submit"].searchbox {
+	width: 20%;
+	
+}
